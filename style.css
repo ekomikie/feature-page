@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*NAVBAR*/
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50);
+  top: 10px;
+}
+
+i {
+  padding-top: 10px;
+  color: lightgrey;
+}
+
+.banner {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/*1ST SECTION*/
+
+.faqs-wrapper {
+  position: relative;
+  height: 200px;
+  background: #f4f3f3;
+}
+
+.faqs {
+  position: absolute;
+  top: 38%;
+  left: 7%;
+}
+
+.faq-text {
+  position: absolute;
+  top: 47%;
+  right: 3%;
+}
+
+/*2ND SECTION*/
+.col-sm-6 .left-content .left-box,
+.col-sm-6 .right-content .right-box {
+  background: #f4f3f3;
+}
